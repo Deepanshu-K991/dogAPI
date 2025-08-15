@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog Browser - TheDogAPI</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <h1 class="title">Dog Browser</h1>
+            <div class="controls">
+                <button id="reload-btn" class="btn" type="button" aria-label="Reload dogs">
+                    Reload
+                </button>
+            </div>
+        </header>
+
+        <div id="error" class="error" role="alert" aria-live="assertive" hidden></div>
+
+        <div id="loader" class="loader" aria-hidden="true" hidden>
+            <div class="spinner" aria-label="Loading"></div>
+            <span class="loader-text">Loading dogs…</span>
+        </div>
+
+        <main>
+            <section id="dogs" class="cards" aria-live="polite"></section>
+        </main>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
