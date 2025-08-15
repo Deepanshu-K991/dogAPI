@@ -1,4 +1,4 @@
-# Dog Browser (Task 7)
+# Dog Browser 
 
 Fetch and display data from a public API using the Fetch API. This project uses TheDogAPI to render a responsive gallery of dog images with breed details.
 
